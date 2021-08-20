@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .header{
+        height: 30px;
+        margin-top: -10px;
+    }
+    .header img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 130px;
+        margin-top: 15px;
+    }
+    .passbook{
+        background-image: linear-gradient(to right, #EA264B , #520867);;
+        height: 45px;
+        margin-top: -15px;
+    }
+    .passbook p{
+        color: white;
+        font-family: sans-serif;
+        position: relative;
+        padding: 13px 20px;
+    }
+    .passbook p span{
+        font-weight: 550;
+    }
+    .child{
+        height: 85px;
+        border-bottom: 1px dotted black;
+    }
+    .childUp{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        box-shadow: 1px 2px lightgrey;
+        margin-top: 10px;
+        margin-left: 18px;
+    }
+    .logo img{
+        width: 40px;
+        position:relative;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .left{
+        display: flex;
+    }
+    .textName{
+        margin-left: 10px;
+    }
+    .maintxt{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .mode{
+        font-size: 12px;
+    }
+    .right{
+        display: flex;
+        margin-right: 10px;
+        color: #60A417;
+        width: 100px;
+        justify-content: space-between;
+    }
+
+    .right span img{
+        width: 25px;
+        margin-top: 12px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding: 0px 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+</style>
+<body>
+    <div class="mobile">
+        <img src="images/mobile_up.jpeg" alt="" style="width: 100%;">
+    </div>
+    <div class="header">
+        <img src="images/yono.png" alt="">
+    </div>
+    <div class="passbook">
+        <p><span>mPassbook</span> - A/c No. XXXXXXX3588</p>
+    </div>
+    <div class="main">
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/prepladder.jpg" alt="" style="border-radius: 50%; width: 32px;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: #F62122;">&#x20b9; 8999.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    19/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 2793.48
+                </div>
+            </div>
+        </div>
+        <!-- paytm logo -->
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/pauyau.jpg" alt="" style="width: 40px; border-radius: 50%;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             paytm
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 106.90 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    19/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 11,792.48 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             GooglePay
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 529.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    17/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 11,899.38 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             Zomato
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 204.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    17/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 12,428.38 
+                </div>
+            </div>
+        </div>
+                <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             GooglePay
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 80.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    16/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 12,632.38 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             GooglePay
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 171.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    16/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 12,712.38 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             GooglePay
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 120.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    14/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 12,883.38 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             GooglePay
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 491.65 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    13/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 13,003.38 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             GooglePay
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>&#x20b9; 500.00 </p>
+                    <span><img src="images/plus.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    13/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 13,495.03 
+                </div>
+            </div>
+        </div>
+                <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             GooglePay
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 149:00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    7/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 12,995.03 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             GooglePay
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 358.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    3/08/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 13,144.03 
+                </div>
+            </div>
+        </div>
+
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant transaction
+                        </div>
+                         <div class="mode">
+                             GooglePay
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>&#x20b9; 5.00 </p>
+                    <span><img src="images/plus.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    31/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 13,502.03 
+                </div>
+            </div>
+        </div>
+        <!-- cash atm withdraw -->
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Cash
+                        </div>
+                         <div class="mode">
+                             ATMWithdrawl
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 3000.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    31/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 13,497.03 
+                </div>
+            </div>
+        </div>
+                <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>&#x20b9; 3000.00 </p>
+                    <span><img src="images/plus.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    31/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 16,497.03 
+                </div>
+            </div>
+        </div>
+                <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 385.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    31/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 13,497.03 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/gpay.png" alt="">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>&#x20b9; 2.00 </p>
+                    <span><img src="images/plus.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    30/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 13,882.03 
+                </div>
+            </div>
+        </div>
+         <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/irctc.png" alt="" style="border-radius: 50%; width: 30px; background: red;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Merchant Transaction
+                        </div>
+                         <div class="mode">
+                             IRCTC
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 1258.60 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    30/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 13,880.03 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                         <img src="images/UPI1.jpg" alt="" style="width: 30px;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>&#x20b9; 500.00 </p>
+                    <span><img src="images/plus.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    28/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 15,165.63 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                         <img src="images/UPI1.jpg" alt="" style="width: 30px;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>&#x20b9; 2500.00 </p>
+                    <span><img src="images/plus.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    28/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 14,665.63 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                         <img src="images/UPI1.jpg" alt="" style="width: 30px;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 3000.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    28/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 12,165.63 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                         <img src="images/UPI1.jpg" alt="" style="width: 30px;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>&#x20b9; 1.00 </p>
+                    <span><img src="images/plus.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    28/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 15,165.63 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                         <img src="images/UPI1.jpg" alt="" style="width: 30px;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>&#x20b9; 51.00 </p>
+                    <span><img src="images/plus.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    28/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 15,164.63 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/UPI1.jpg" alt="" style="width: 30px;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 80.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    28/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 15,113.63 
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/UPI1.jpg" alt="" style="width: 30px;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 215.00 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    27/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 15,193.63
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="childUp">
+                <div class="left">
+                    <div class="logo">
+                        <img src="images/UPI1.jpg" alt="" style="width: 30px;">
+                    </div>
+                    <div class="textName">
+                        <div class="maintxt">
+                            Fund Transfer
+                        </div>
+                         <div class="mode">
+                             UPI
+                         </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p style="color: red;">&#x20b9; 262.50 </p>
+                    <span><img src="images/minus.png" alt="" style="width: 20px;"></span>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="leftFoot">
+                    23/07/2021
+                </div>
+                <div class="rightFoot">
+                    Balance: &#x20b9; 15,408.63 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
